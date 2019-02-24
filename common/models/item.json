@@ -19,6 +19,9 @@
     },
     "location": {
       "type": "geopoint"
+    },
+    "model_id": {
+      "type": "number"
     }
   },
   "validations": [],
