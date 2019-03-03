@@ -1,0 +1,27 @@
+{
+  "name": "item-catalog",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "item_name": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "string"
+    },
+    "model_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

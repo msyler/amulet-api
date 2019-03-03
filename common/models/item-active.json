@@ -1,6 +1,5 @@
 {
-  "name": "Item",
-  "plural": "items",
+  "name": "item-active",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -15,13 +14,19 @@
       "required": true
     },
     "desc": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "location": {
-      "type": "geopoint"
+      "type": "geopoint",
+      "required": true
     },
     "model_id": {
-      "type": "number"
+      "type": "string",
+      "required": true
+    },
+    "current_owner": {
+      "type": "string"
     }
   },
   "validations": [],
