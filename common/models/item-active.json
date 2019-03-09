@@ -30,7 +30,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "item-catalog": {
+      "type": "belongsTo",
+      "model": "item-catalog",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
