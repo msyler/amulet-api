@@ -38,6 +38,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "tempUser": {
+      "type": "belongsTo",
+      "model": "TempUser",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

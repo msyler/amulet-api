@@ -42,5 +42,13 @@
   "item-active": {
     "dataSource": "mongo_ds",
     "public": true
+  },
+  "TempUser": {
+    "dataSource": "mongo_ds",
+    "public": true
+  },
+  "UserTest": {
+    "dataSource": "mongo_ds",
+    "public": true
   }
 }
