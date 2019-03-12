@@ -1,4 +1,4 @@
-# Amulet MVP - UI
+# Amulet MVP - API
 
 ## Overview
 
